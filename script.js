@@ -1,5 +1,4 @@
 // global constants
-
 const cluePauseTime = 333; // how long to pause in between clues
 const nextClueWaitTime = 1000; // how long to wait before playing sequence
 const patternLength = 8; // how many buttons will be pressed in the randomly generated pattern
@@ -104,10 +103,6 @@ function guess(btn){
       guessCounter++;
     }
   }
-  
-  
-  
-  
 }
 
 // Sound Synthesis Functions
