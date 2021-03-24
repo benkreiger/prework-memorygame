@@ -1,0 +1,87 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  background-image: linear-gradient(to bottom, tomato, rgba(255, 99, 71, 0), white);
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.centerButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 40px;
+}
+
+button {
+  padding: 12px;
+  width: 100px;
+  border-radius: 12px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background-image: url("https://cdn.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/500px-001Bulbasaur.png");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  background-color: lightgreen;
+}
+#button1:active, #button1.lit {  
+  filter: none;
+}
+
+#button2 {
+  background-image: url("https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/500px-007Squirtle.png");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  background-color: lightblue;
+}
+#button2:active, #button2.lit {  
+  filter: none;
+}
+
+#button3 {
+  background-image: url("https://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/500px-004Charmander.png");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  background-color: pink;
+}
+#button3:active, #button3.lit {  
+  filter: none;
+}
+
+#button4 {
+  background-image: url("https://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/500px-025Pikachu.png");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  background-color: lightyellow;
+}
+#button4:active, #button4.lit {  
+  filter: none;
+}
